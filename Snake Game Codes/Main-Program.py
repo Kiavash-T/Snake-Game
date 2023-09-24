@@ -1,5 +1,5 @@
 from tkinter import *
-
+import Snake
 window = Tk()
 
 
@@ -8,3 +8,4 @@ window.resizable(False, False)
 
 
 
+snake = Snake()
