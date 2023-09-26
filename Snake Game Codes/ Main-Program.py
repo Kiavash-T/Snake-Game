@@ -39,7 +39,7 @@ window.geometry(f"{window_width}x{window_height}+{x}+{y}")
 
 button.wait_variable(button_pressed)
 
-
+label.destroy()
 
 window.update()
 snake = Snake()
