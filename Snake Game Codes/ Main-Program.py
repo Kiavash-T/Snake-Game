@@ -45,4 +45,6 @@ label.destroy()
 window.update()
 snake = Snake()
 food = Food()
+next_turn(snake, food)
+
 window.mainloop()
