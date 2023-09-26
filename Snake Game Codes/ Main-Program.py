@@ -1,5 +1,6 @@
 from Snake import Snake
 from Food import Food
+from Functions import *
 from tkinter import *
 
 
