@@ -42,3 +42,9 @@ def check_game_over(snake):
       if x == sq[0] and y == sq[1]:
          return True
    return False
+def game_over():
+   canvas.delete(ALL)
+   label = Label(window, text=f"Score: {score}", font=("Courier", 30))
+   label.pack()
+   canvas.create_text(canvas.winfo_width() / 2 , canvas.winfo_height() / 2, font= ("Terminal", 30), text="GAME OVER!", fill="#DF1A2F")
+
